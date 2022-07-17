@@ -19,7 +19,7 @@ namespace AssMVCLoginRegister.Controllers
             ViewBag.Dob = form["txtdob"];
 
             return View("Login");
-        }
+        } 
         public IActionResult Login()
         {
 
