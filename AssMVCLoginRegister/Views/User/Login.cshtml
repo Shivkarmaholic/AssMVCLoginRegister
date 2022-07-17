@@ -1,0 +1,40 @@
+﻿
+@{
+    ViewData["Title"] = "Login";
+}
+
+@using(Html.BeginForm()){
+
+<table class="table table-bordered ">
+    
+    <tr>
+        <td colspan="2" align="center">
+            <h1>Login Now</h1>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="txtname">Name</label>
+        </td>
+        <td>
+            <input class="form-control form-control-lg" type="text" placeholder="Enter Username or Email" name="txtusername">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="txtpassword">Password</label>
+        </td>
+        <td>
+            <input class="form-control form-control-lg" type="password" placeholder="Enter Password" name="txtpassword">
+        </td>
+    </tr>
+     <tr>
+        <td colspan="2" align="center">
+           <input type="submit" name="submit" class="btn btn-primary" />
+        </td>
+     </tr>
+
+</table>
+
+}
+
